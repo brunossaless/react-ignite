@@ -1,0 +1,68 @@
+@use 'Vars';
+
+.boxCreateTask {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+    form {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        textarea {
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            resize: none;
+            box-sizing: border-box;
+            font-style: none;
+            width: 638px;
+            height: 52px;
+            padding: 16px;
+            background: Vars.$gray500;
+            border: 1px solid Vars.$gray700;
+            border-radius: 8px;
+            color: Vars.$gray100;
+        }
+
+        button {
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            height: 52px;
+            width: 90px;
+            padding: 16px;
+            border-radius: 8px;
+            background: Vars.$blueDark;
+            border-style: none;
+            color: white;
+            cursor: pointer;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+
+            transition: background 400ms;
+        }
+
+        button:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+
+        button:hover{
+            background: Vars.$blue;
+        }
+
+        textarea:focus-within{
+            outline: 1px solid Vars.$blueDark;
+        }
+    }
+}
