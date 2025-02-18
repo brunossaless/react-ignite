@@ -23,7 +23,7 @@ export default function Task() {
   const isNewTaskEmpty = newTask.length === 0;
 
 
-  const createSound = new Audio('src/sounds/create.mp3'); 
+  const createSound = new Audio('/sounds/create.mp3'); 
 
   function handleNewTaskChange(event: ChangeEvent<HTMLTextAreaElement>) {
     event.target.setCustomValidity("");
