@@ -4,13 +4,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 .uniqueTask {
 
     background-color: Vars.$gray500;
     border-radius: 8px;
-    padding: 16px;
+    padding: 5px 16px;
 
     form {
         display: flex;

@@ -1,17 +1,16 @@
 @use 'Vars';
 
 .boxCreateTask {
-    position: absolute;
-    left: 30%;
-    right: 30%;
-    top: 31%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    width: 720px;
+
+    margin-top: 20px;
     
     form {
-        position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;

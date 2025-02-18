@@ -18,15 +18,12 @@ import RenderTasks from "./RenderTasks";
 import { RenderNoTasks } from "./RenderNoTasks";
 
 export default function Task() {
-  const [tasks, setTasks] = useState<inTask[]>([
-    {
-      id: uid(),
-      value: "Uma tarefa para testes",
-      isCompleted: false,
-    },
-  ]);
+  const [tasks, setTasks] = useState<inTask[]>([]);
   const [newTask, setNewTask] = useState("");
   const isNewTaskEmpty = newTask.length === 0;
+
+
+  const createSound = new Audio('src/sounds/create.mp3'); 
 
   function handleNewTaskChange(event: ChangeEvent<HTMLTextAreaElement>) {
     event.target.setCustomValidity("");
@@ -34,6 +31,8 @@ export default function Task() {
   }
   function handleCreateNewTask(event: FormEvent) {
     event.preventDefault();
+    
+    createSound.play();
 
     const newTaskProvider: inTask = {
       id: uid(),
