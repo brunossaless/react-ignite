@@ -23,15 +23,15 @@
 
 <div align="center">
     <h2>Veja Como ficou o projeto:</h2>
-    <img src="https://github.com/brunossales/ROCKETSEAT_Studies/blob/main/imgs/ToDo%20List%20-%20GIF.gif">
-        <a href="https://github.com/brunossales/ROCKETSEAT_Studies/blob/main/imgs/ToDo%20List%20-%20GIF.gif"> </a>
+    <img src="https://github.com/brunossaless/react-ignite/tree/main/toDoList/src/img/ToDo%20List%20-%20GIF.gif">
+        <a href="https://github.com/brunossaless/react-ignite/tree/main/toDoList/src/img/ToDo%20List%20-%20GIF.gif"> </a>
     </img>
     <h2>Quando tem-se tarefas cadastradas:</h2>
-    <img src="https://github.com/brunossales/ROCKETSEAT_Studies/blob/main/imgs/toDoListAll.png" width="550" height="290">
-        <a href="https://github.com/brunossales/ROCKETSEAT_Studies/blob/main/imgs/toDoListAll.png"> </a>
+    <img src="https://github.com/brunossaless/react-ignite/tree/main/toDoList/src/img/toDoListAll.png" width="550" height="290">
+        <a href="https://github.com/brunossaless/react-ignite/tree/main/toDoList/src/img/imgs/toDoListAll.png"> </a>
     </img>
     <h2>Quando não tem tarefas cadastradas:</h2>
-    <img src="https://github.com/brunossales/ROCKETSEAT_Studies/blob/main/imgs/todoListNone.png" width="550" height="290">
-        <a href="https://github.com/brunossales/ROCKETSEAT_Studies/blob/main/imgs/todoListNone.png"> </a>
+    <img src="https://github.com/brunossaless/react-ignite/tree/main/toDoList/src/img/imgs/todoListNone.png" width="550" height="290">
+        <a href="https://github.com/brunossaless/react-ignite/tree/main/toDoList/src/img/todoListNone.png"> </a>
     </img>
 </div>
