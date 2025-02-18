@@ -1,15 +1,22 @@
+import React from 'react';
 import rocket from "../img/rocket.svg";
 import HeaderStyle from '../styles/Header.module.scss'
 
-export default function Header() {
+const Header = () => {
   return (
-    <div className={HeaderStyle.navBar}>
-      <nav>
-        <img src={rocket} alt="Foguete do ToDo" />
-        <h1>
-          <p>to</p>do
-        </h1>
-      </nav>
-    </div>
+    <header className={HeaderStyle.header}>
+      <div className={HeaderStyle.navBar}>
+        <nav>
+          <img src={rocket} alt="Foguete do ToDo" />
+          <section>
+            <h1>
+              <span>to</span>do
+            </h1>
+          </section>
+        </nav>
+      </div>
+    </header>
   );
-}
+};
+
+export default Header;

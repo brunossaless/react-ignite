@@ -10,7 +10,7 @@ export default function RenderTasks({
   isChecked,
 }: inTaskRender) {
 
-  // Add audio reference
+  // Add audio reference with updated path
   const deleteSound = new Audio('src/sounds/delete.mp3'); 
 
   function handleDeleteTask() {
