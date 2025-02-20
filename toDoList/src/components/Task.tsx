@@ -25,8 +25,7 @@ export default function Task() {
 
   const createSound = new Audio('/sounds/create.mp3'); 
 
-  function handleNewTaskChange(event: ChangeEvent<HTMLTextAreaElement>) {
-    event.target.setCustomValidity("");
+  function handleNewTaskChange(event: ChangeEvent<HTMLInputElement>) {
     setNewTask(event.target.value);
   }
   function handleCreateNewTask(event: FormEvent) {
@@ -92,7 +91,8 @@ export default function Task() {
     <div className={TaskStyle.container}>
       <div className={CreateTaskStyle.boxCreateTask}>
         <form onSubmit={handleCreateNewTask}>
-          <textarea
+          <input
+            type="text"
             placeholder="Adicionar uma nova tarefa"
             onChange={handleNewTaskChange}
             value={newTask}

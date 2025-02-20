@@ -10,7 +10,7 @@ const Header = () => {
           <img src={rocket} alt="Foguete do ToDo" />
           <section>
             <h1>
-              <span>to</span>do
+              <span>Pa</span>pai
             </h1>
           </section>
         </nav>
